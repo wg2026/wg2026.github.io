@@ -638,6 +638,18 @@ form button {
     padding-right: 5px;
     vertical-align: top; }
 
+  .regtab tr {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc; }
+  .regtab td {
+    text-align: center;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding-right: 5px;
+    vertical-align: top; }
+
   .participants td {
     vertical-align: top; }
 
