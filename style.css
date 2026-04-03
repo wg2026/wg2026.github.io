@@ -26,7 +26,7 @@ body {
   padding: 0 0 90px 0;
   /*60+30*/
   min-height: 100%;
-  max-width: 1000px;
+  max-width: 1050px;
   min-width: 200px;
   border-radius: 2px;
   box-shadow: 3px 3px 3px #777777;
@@ -654,11 +654,25 @@ form button {
     vertical-align: top; }
 
 
-  .abstracts td {
-    vertical-align: top; }
+  .speaker {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   .speakerphoto {
-    display: block; }
+    text-align: center;
+  }
+
+  .speakerphoto img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .speaker-details {
+    text-align: center;
+  }
 
   .speakertext {
     display: block; } }
@@ -713,14 +727,14 @@ margin:17px 0px;
     margin: 0; }
 
   .speaker {
-    display: block; }
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
 
   .speakerphoto {
-    display: inline-block;
-    vertical-align: top; }
-
-  .speakertext {
-    display: inline-block; } }
+    margin-right: 20px;
+  } }
 /* END min-width: 600px */
 @media (min-width: 800px) {
   body {
