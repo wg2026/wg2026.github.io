@@ -653,6 +653,10 @@ form button {
   .participants td {
     vertical-align: top; }
 
+
+  .abstracts td {
+    vertical-align: top; }
+
   .speakerphoto {
     display: block; }
 
