@@ -58,7 +58,7 @@ body {
   font-size: 1.3em;
   font-style: italic;
   font-family: Arial, sans-serif; 
-width: 25em; /*set header subtitle width*/
+max-width: 25em; /*set header subtitle width*/
 }
 
 #headerdate {
